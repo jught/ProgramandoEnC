@@ -9,7 +9,6 @@ int main()
 {  
     float n = 150;
     float m = 300;
-    float r = 150%300;
-    printf("%f  %s es divisor de %f", m, traduce(r == 0) ,n);
+    printf("%f  %s es divisor de %f", m, traduce(n%m == 0) ,n);
     return 0;
 }
